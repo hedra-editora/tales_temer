@@ -1,9 +1,9 @@
 LIVRO = TALES_DILMA
 
 all:
-	latexmk -xelatex -interaction=nonstopmode LIVRO.tex
-	cp LIVRO.pdf ${LIVRO}.pdf
-	evince ${LIVRO}.pdf
+	git log -1 --date=short --format=format:'\newcommand{\RevisionInfo}{%h}' > gitrevisioninfo.sty
+	latexmk -xelatex LIVRO.tex
+	
 erros:
 	-grep --color=auto "LaTeX Error" LIVRO.log
 	-grep --color=auto -A 3 "Undefined" LIVRO.log
