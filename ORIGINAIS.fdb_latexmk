@@ -1,0 +1,13 @@
+# Fdb version 3
+["xdvipdfmx"] 1527710331 "ORIGINAIS.xdv" "ORIGINAIS.pdf" "ORIGINAIS" 1527710331
+  "ORIGINAIS.xdv" 1527710319 159300 7e1b1a25fcbb6119bb3a132bdb4a5ecc "xelatex"
+  (generated)
+  "ORIGINAIS.pdf"
+["xelatex"] 1527710318 "ORIGINAIS.tex" "ORIGINAIS.xdv" "ORIGINAIS" 1527710331
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1510784374 32585 d82bbcf7626b7842c87671687479e852 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1516130245 4066334 455a595bfa61ab60d620b040bfc81aa6 ""
+  "ORIGINAIS.aux" 1527710318 8 a94a2480d3289e625eea47cd1b285758 ""
+  "ORIGINAIS.tex" 1527710318 289192 fa59a10a75cec0cf4a72cb77755a62c3 ""
+  (generated)
+  "ORIGINAIS.log"
+  "ORIGINAIS.xdv"
